@@ -35,7 +35,7 @@ body {
 .avatar {
   width: 57px;
   height: 57px;
-  background: url('https://wmpics.pics/di-TM5X.jpg');
+  background: url();
   background-size: 100%;
   border-radius: 50%;  
 }
@@ -61,7 +61,7 @@ body {
   position: absolute;
   width: 100%;
   height: 3px;
-  background-color: #000;
+  background-color: #797BE6;
   transition: 0.2s;
   transform: scaleX(0);
 }
@@ -78,14 +78,14 @@ body {
   font-size: 14px;
   background-color: transparent;
   border-radius: 50px;
-  border: 2px solid #2b2a2c;
+  border: 2px solid #797BE6;
   padding: 13px 22px 13px 23px;
   
 }
 .hero {
   padding-top: 112px;
   padding-bottom: 112px;
-  background: url('https://wmpics.pics/di-R32D.png') no-repeat right bottom;
+  background: url() no-repeat right bottom;
 }
 
 .hero-subtitle {
@@ -115,6 +115,7 @@ body {
   color: #fff;
   text-align: center;
   line-height: 41px;
+  border-radius: 7px;
 }
 
 .telegram-bg {
@@ -138,9 +139,11 @@ body {
   font-weight: 800;
   text-decoration: none;
   border-radius: 50px;
-  background-color: #2b2a2c;
+  background-color: #797BE6;
   padding: 16px 40px;
   display: inline-block;
+  cursor: pointer;
+ 
 }
 
 .hero-buttons {
@@ -162,18 +165,27 @@ body {
 
 .project-card {
   min-height: 370px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba( 121, 123, 230, 0.35);
   border-radius: 10px;
   width: 370px;
   overflow: hidden;
   margin-bottom: 50px;
-}
-
-.cards {
-  margin-top: 91px;
-  margin-bottom:177px;
+  margin-top: 60px;
 
 }
+
+.project-cards {
+
+  margin-bottom:117px;
+
+}
+
+
+.thirst {
+  position: relative;
+}
+
+
 
 .project-card__image {
   height: 300px;
@@ -223,7 +235,7 @@ body {
 .footer-info {
   display: flex;
   justify-content: space-between; 
-  align-item: center;
+  align-items: center;
 }
 
 .footer-text {
@@ -237,6 +249,7 @@ body {
   font-size: 14px;
   display: flex;
   align-items: center;
+
 }
 
 .footer-social {
@@ -254,6 +267,7 @@ body {
   font-size: 14px;
   align-items: center;
   justify-content: space-between;
+
   }
 
 .footer-menu a {
@@ -262,16 +276,6 @@ body {
 
 nav {
   margin-right: 15px;
-}
-
-.footer-button {
-  background-color: transparent;
-  border: 1px solid #8d8d8e;
-  color: #8d8d8e;
-  border-radius: 16px;
-  padding: 8px 24px; 
-  display: inline-block;
-  
 }
 
 .content-about {
@@ -296,6 +300,120 @@ font-weight: 300;
 line-height: 24px;
 color: #717072
 }
+
+.my_works {
+  width: 280px;
+  margin: 0 auto 0;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+}
+
+.fab {
+  border: 5px;
+}
+
+.contact-me_block {
+  height: 600px;
+  padding-top: 10px;
+
+} 
+
+.contact_form {
+  display: flex;
+  box-sizing:border-box;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding: 5px 20px;
+  box-shadow: 0 0 10px rgba(106, 105, 107, 0.45);
+  border-radius: 40px;
+  padding: 70px 40px;
+
+}
+
+.contact_text-block {
+  width: 400px;
+}
+
+.contact_text {
+  text-align: center;
+  padding-right: 70px; 
+
+  }
+
+form{
+  width: 600px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+input {
+  display: block;
+  outline:0;
+  margin-bottom: 20px;
+  border: 2px solid #D8D3EE;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 8px;
+  width: 100%;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25);;
+}
+
+input[type="submit"] {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 120px;
+  background-color: #797BE6;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 50px;
+  border: none;
+  background-image: linear-gradient(#A9A9EF, #797BE6);
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 110px; 
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  outline:0;
+  border: 2px solid #D8D3EE;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.25);
+}
+
+
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: arial;
+      color: #B5B5B5;
+}
+::-moz-placeholder {
+  font-size: 15px;
+  font-weight: 600;
+    font-family: arial;
+        color: #B5B5B5;
+}
+:-moz-placeholder {
+  font-size: 15px;
+  font-weight: 600;
+    font-family: arial;
+        color: #B5B5B5;
+}
+:-ms-input-placeholder {
+  font-size: 15px;
+  font-weight: 600;
+    font-family: arial;
+    color: #B5B5B5;
+}
+
 
 @media (max-width: 1200px) {
   .container {
@@ -346,6 +464,5 @@ color: #717072
   .footer-menu {
     display: none;
   }
-  
-  
+
 }
