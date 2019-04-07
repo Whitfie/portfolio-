@@ -53,7 +53,7 @@ p {
 }
 
 .back1 {
-	background: url(img/background1.png);
+	background: url(img/Background1.png);
 	display: flex;
 	justify-content: space-between;
 }
@@ -67,17 +67,17 @@ p {
 
 
 .back2 {
-	background: url(img/background2.png);
+	background: url(img/Background2.png);
 	padding-top: 1px;
 	padding-bottom: 100px;
 }
 
 .back3 {
-	background: url(img/background3.png);
+	background: url(img/Background3.png);
 }
 
 .back4 {
-	background: url(img/background4.png);
+	background: url(img/Background4.png);
 	padding-top: 1px;
 }
 
@@ -86,11 +86,11 @@ p {
 }
 
 .back5 {
-	background: url(img/background5.png);
+	background: url(img/Background5.png);
 }
 
 .back6 {
-	background: url(img/background6.png);
+	background: url(img/Background6.png);
 }
 
 .back6 div {
