@@ -45,7 +45,8 @@ body {
   align-items: center;
 }
 
-.menu-list a {
+
+.menu-list nav a {
   text-decoration: none;
   color: #2b2a2c;
   text-transform: uppercase;
@@ -54,7 +55,7 @@ body {
   position: relative;
 }
 
-.menu-list a:before {
+.menu-list nav a:before {
   content: '';
   bottom: 0;
   left: 0;
@@ -80,8 +81,11 @@ body {
   border-radius: 50px;
   border: 2px solid #797BE6;
   padding: 13px 22px 13px 23px;
+  outline: 0;
+  cursor: pointer;
   
 }
+
 .hero {
   padding-top: 112px;
   padding-bottom: 112px;
