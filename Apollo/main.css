@@ -1,0 +1,195 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 1500px;
+	margin: 50px auto 50px;
+	min-height: 750px;
+	background-size: 100%
+	
+}
+
+p {
+	line-height: 1.5;
+}
+
+.text p {
+		font-style: italic;
+}
+
+.text {
+	width: 500px;
+	margin-top: 240px;
+	margin-left: 179px;
+}
+
+.text h2 {
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+
+
+
+.headline {
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+
+
+.decor {
+	font-weight: 100;
+}
+
+.border {
+	width: 2px;
+	height: 87px;
+	border-left: 1px solid #000000;
+	margin: 30px 10px;
+}
+
+.back1 {
+	background: url(img/background1.png);
+	display: flex;
+	justify-content: space-between;
+}
+
+.two {
+
+	
+	margin-left: 700px;
+	width: 600px;
+}
+
+
+.back2 {
+	background: url(img/background2.png);
+	padding-top: 1px;
+	padding-bottom: 100px;
+}
+
+.back3 {
+	background: url(img/background3.png);
+}
+
+.back4 {
+	background: url(img/background4.png);
+	padding-top: 1px;
+}
+
+.back4 div {
+	width: 460px;
+}
+
+.back5 {
+	background: url(img/background5.png);
+}
+
+.back6 {
+	background: url(img/background6.png);
+}
+
+.back6 div {
+	text-align: center;
+	margin: 0 auto
+}
+
+.headtext {
+		width: 900px;
+}
+
+.inline_border {
+	height: 2px;
+	width: 77px;
+	border-top: 1px solid black;
+	display: inline-block;
+	padding-bottom: 20px;
+	margin-right: 20px;
+}
+
+.headtext {
+
+	padding-top: 100px;
+}
+
+.back6 h2 {
+	font-size: 50px;
+}
+
+
+
+.form {
+	width:585px !important;
+	margin:inherit;
+	box-sizing: border-box;
+}
+
+
+
+input[type="text"], textarea {
+	border: 1px solid black;
+	background: transparent;
+	padding: 10px;
+	outline:0;
+	width: 275px;
+}
+
+.inputs {
+	margin-top: 60px !important;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px !important;
+}
+
+input[type="submit"] {
+	width: 100%;
+	background: black;
+	border: 1px solid black;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	outline:0;
+	cursor:pointer;
+}
+
+
+::-webkit-input-placeholder {
+  font-size: 15px;
+
+  font-family: arial;
+      color: black;
+}
+::-moz-placeholder {
+  font-size: 15px;
+
+    font-family: arial;
+        color: black;
+}
+:-moz-placeholder {
+  font-size: 15px;
+
+  font-family: arial;
+  color: black;
+}
+:-ms-input-placeholder {
+  font-size: 15px;
+
+  font-family: arial;
+  color: black;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  height: 110px;
+  margin-bottom: 25px;
+}
+
+.meng {
+	margin-top: 20px;
+}
+
